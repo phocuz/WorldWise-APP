@@ -2,9 +2,11 @@ import Spinner from "./Spinner";
 import CountryItem from "./CountryItem";
 import styles from "./CountryList.module.css";
 import Message from "./Message";
+import { useCity } from "../context/CityContext";
 
-function CountryList({ cities, isLoading }) {
+function CountryList() {
   // Show a spinner while loading
+  const {cities,isLoading} = useCity();
   if (isLoading) return <Spinner />;
 
   // If no cities, show a message
