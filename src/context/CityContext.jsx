@@ -39,8 +39,21 @@ function CityProvider({ children }){
       }
 
     }
+
+    function deleteCity(id) {
+    setCities((prevCities) => {
+      const updatedCities = prevCities.filter(city => city.id !== id);
+      
+      // If the deleted city was the current city, update currentCity
+      if (currentCity && currentCity.id === id) {
+        setCurrentCity(updatedCities.length > 0 ? updatedCities[0] : null);
+      }
+      
+      return updatedCities;
+    });
+  }
   return (
-    <CityContext.Provider value={{cities, isLoading,currentCity,getCity }}>
+    <CityContext.Provider value={{cities, isLoading,currentCity,getCity,deleteCity }}>
     {children}
   </CityContext.Provider>
   )
