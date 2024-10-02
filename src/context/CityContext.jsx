@@ -40,6 +40,27 @@ function CityProvider({ children }){
 
     }
 
+    async function createCity(newCity){
+    try {
+        setIsLoading(true);
+        const res = await fetch(`${ARRAY_URL}/cities`,{
+          method: "POST",
+          body: JSON.stringify(newCity),
+          headers: {
+            "content-Type": "application/json",
+          }
+        });
+        const data = await res.json(); 
+        setCities(cities => [...cities,data])
+      } catch {
+        alert("There was an error loading data...please try again");
+      } finally {
+        setIsLoading(false);
+      }
+
+    }
+
+
     function deleteCity(id) {
     setCities((prevCities) => {
       const updatedCities = prevCities.filter(city => city.id !== id);
@@ -53,7 +74,7 @@ function CityProvider({ children }){
     });
   }
   return (
-    <CityContext.Provider value={{cities, isLoading,currentCity,getCity,deleteCity }}>
+    <CityContext.Provider value={{cities, isLoading,currentCity,getCity,deleteCity,createCity }}>
     {children}
   </CityContext.Provider>
   )

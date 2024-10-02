@@ -10,7 +10,7 @@
         "lat": 38.727881642324164,
         "lng": -9.140900099907554
       },
-      "id": 73930385
+      "id": "73930385"
     },
     {
       "cityName": "Madrid",
@@ -22,7 +22,7 @@
         "lat": 40.46635901755316,
         "lng": -3.7133789062500004
       },
-      "id": 17806751
+      "id": "17806751"
     },
     {
       "cityName": "Berlin",
@@ -34,8 +34,196 @@
         "lat": 52.53586782505711,
         "lng": 13.376933665713324
       },
-      "id": 98443197
+      "id": "98443197"
+    },
+    {
+      "id": "4d68",
+      "cityName": "Lisbon",
+      "country": "Portugal",
+      "date": "2024-10-02T13:49:14.696Z",
+      "notes": "",
+      "position": {
+        "lat": "38.747792230266235",
+        "lng": "-9.154500974729439"
+      }
+    },
+    {
+      "id": "eeb6",
+      "cityName": "Vila Franca de Xira",
+      "country": "Portugal",
+      "date": "2024-10-02T13:49:14.696Z",
+      "notes": "note",
+      "position": {
+        "lat": "38.81938950758305",
+        "lng": "-9.06371496274487"
+      }
+    },
+    {
+      "id": "fa1a",
+      "cityName": "Vila Franca de Xira",
+      "country": "Portugal",
+      "date": "2024-10-02T13:49:14.696Z",
+      "notes": "note",
+      "position": {
+        "lat": "38.81938950758305",
+        "lng": "-9.06371496274487"
+      }
+    },
+    {
+      "id": "dfba",
+      "cityName": "Vila Franca de Xira",
+      "country": "Portugal",
+      "date": "2024-10-02T13:49:14.696Z",
+      "notes": "note",
+      "position": {
+        "lat": "38.81938950758305",
+        "lng": "-9.06371496274487"
+      }
+    },
+    {
+      "id": "e560",
+      "cityName": "Vila Franca de Xira",
+      "country": "Portugal",
+      "date": "2024-10-02T14:21:43.203Z",
+      "notes": "",
+      "position": {
+        "lat": "38.81938950758305",
+        "lng": "-9.06371496274487"
+      }
+    },
+    {
+      "id": "a053",
+      "cityName": "Vila Franca de Xira",
+      "country": "Portugal",
+      "date": "2024-10-02T14:21:43.203Z",
+      "notes": "",
+      "position": {
+        "lat": "38.81938950758305",
+        "lng": "-9.06371496274487"
+      }
+    },
+    {
+      "id": "fd36",
+      "cityName": "Vila Franca de Xira",
+      "country": "Portugal",
+      "date": "2024-10-02T14:21:43.203Z",
+      "notes": "",
+      "position": {
+        "lat": "38.81938950758305",
+        "lng": "-9.06371496274487"
+      }
+    },
+    {
+      "id": "4f47",
+      "cityName": "Vila Franca de Xira",
+      "country": "Portugal",
+      "date": "2024-10-02T14:21:43.203Z",
+      "notes": "",
+      "position": {
+        "lat": "38.81938950758305",
+        "lng": "-9.06371496274487"
+      }
+    },
+    {
+      "id": "06a8",
+      "cityName": "Vila Franca de Xira",
+      "country": "Portugal",
+      "date": "2024-10-02T14:21:43.203Z",
+      "notes": "",
+      "position": {
+        "lat": "38.81938950758305",
+        "lng": "-9.06371496274487"
+      }
+    },
+    {
+      "id": "e56c",
+      "cityName": "Vila Franca de Xira",
+      "country": "Portugal",
+      "date": "2024-10-02T14:21:43.203Z",
+      "notes": "",
+      "position": {
+        "lat": "38.81938950758305",
+        "lng": "-9.06371496274487"
+      }
+    },
+    {
+      "id": "65c1",
+      "cityName": "Vila Franca de Xira",
+      "country": "Portugal",
+      "date": "2024-10-02T14:21:43.203Z",
+      "notes": "",
+      "position": {
+        "lat": "38.81938950758305",
+        "lng": "-9.06371496274487"
+      }
+    },
+    {
+      "id": "ccbc",
+      "cityName": "Vila Franca de Xira",
+      "country": "Portugal",
+      "date": "2024-10-02T14:21:43.203Z",
+      "notes": "",
+      "position": {
+        "lat": "38.81938950758305",
+        "lng": "-9.06371496274487"
+      }
+    },
+    {
+      "id": "0a93",
+      "cityName": "Vila Franca de Xira",
+      "country": "Portugal",
+      "date": "2024-10-02T14:21:43.203Z",
+      "notes": "",
+      "position": {
+        "lat": "38.81938950758305",
+        "lng": "-9.06371496274487"
+      }
+    },
+    {
+      "id": "e41e",
+      "cityName": "Vila Franca de Xira",
+      "country": "Portugal",
+      "date": "2024-10-02T14:21:43.203Z",
+      "notes": "",
+      "position": {
+        "lat": "38.81938950758305",
+        "lng": "-9.06371496274487"
+      }
+    },
+    {
+      "id": "df8d",
+      "cityName": "Vila Franca de Xira",
+      "country": "Portugal",
+      "date": "2024-10-02T14:21:43.203Z",
+      "notes": "",
+      "position": {
+        "lat": "38.81938950758305",
+        "lng": "-9.06371496274487"
+      }
+    },
+    {
+      "id": "1e67",
+      "cityName": "Madrid",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2024-10-02T14:32:32.251Z",
+      "notes": "zxc",
+      "position": {
+        "lat": "40.45282642090001",
+        "lng": "-3.796118570343912"
+      }
+    },
+    {
+      "id": "75fd",
+      "cityName": "Berlin",
+      "country": "Germany",
+      "emoji": "🇩🇪",
+      "date": "2024-10-02T14:51:06.062Z",
+      "notes": "sdfvb",
+      "position": {
+        "lat": "52.53679592701329",
+        "lng": "13.379116717264854"
+      }
     }
-      
   ]
 }
